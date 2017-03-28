@@ -1,0 +1,42 @@
+{
+  "name": "materialui",
+  "version": "1.0.0",
+  "description": "example of using material ui with react ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "api": "node simple_api/server.js",
+    "dev": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samir Abakhri",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "concurrently": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.1.1",
+    "redux": "^3.4.0",
+    "redux-devtools": "^3.2.0",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.0.9",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.17.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
